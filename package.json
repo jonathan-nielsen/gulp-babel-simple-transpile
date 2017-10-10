@@ -1,0 +1,11 @@
+{
+  "name": "gulp-babel-simple-transpile",
+  "version": "1.0.0",
+  "description": "Transpiles ES6 by usin babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Jonathan Nielsen",
+  "license": "ISC"
+}
