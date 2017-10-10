@@ -1,6 +1,6 @@
 {
   "name": "gulp-babel-simple-transpile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transpiles ES6 by using babel",
   "main": "index.js",
   "repository": {
