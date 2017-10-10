@@ -1,6 +1,7 @@
 # gulp-babel-simple-transpile #
 `npm install --save-dev gulp-babel-simple-transpile`
-### Use it like this
+
+### Usage
 ```javascript
 .pipe(babel({
     sourceMaps: true,
