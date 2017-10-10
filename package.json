@@ -1,17 +1,14 @@
 {
   "name": "gulp-babel-simple-transpile",
-  "version": "1.0.1",
-  "description": "Transpiles ES6 by using babel",
+  "version": "1.0.2",
+  "description": "Simple transform of ES6 Javascript es2015 & es2016 by using babel.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonathan-nielsen/gulp-babel-simple-transpile.git"
   },
-  "scripts": {
-    "test": "npm test"
-  },
   "author": "Jonathan Nielsen <jonathan.nielsen93@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
     "gulp-util": "^3.0.8",
@@ -20,20 +17,15 @@
     "vinyl-sourcemaps-apply": "^0.2.1"
   },
   "devDependencies": {
-    "babel-plugin-transform-remove-strict-mode": "0.0.2",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-es2016": "^6.24.1",
-    "babel-preset-es2017": "^6.24.1",
-    "babel-preset-stage-3": "^6.24.1"
+    "babel-preset-es2016": "^6.24.1"
   },
   "babel": {
     "presets": [
       "es2015",
-      "es2016",
-      "es2017",
-      "stage-3"
+      "es2016"
     ],
     "plugins": [
       "transform-runtime",
