@@ -9,3 +9,6 @@
 	],
 }))
 ```
+### Allowed presets
+* `es2015`
+* `es2016`
