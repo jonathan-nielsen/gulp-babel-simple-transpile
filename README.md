@@ -1,4 +1,5 @@
 # gulp-babel-simple-transpile #
+`npm install --save-dev gulp-babel-simple-transpile`
 ### Use it like this
 ```javascript
 .pipe(babel({
